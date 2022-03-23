@@ -1,0 +1,129 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+    @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+    @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Oswald|Raleway|Roboto');
+      
+    body {
+      font-family: "Roboto", sans-serif;
+      padding: 50px 20px;
+      margin: 0;
+      text-align: center;
+    }
+    
+    h2 {
+      text-align: center;
+      font-size: 0.75em;
+      color: white;
+      font-weight: 500; /* https://www.w3schools.com/csSref/pr_font_weight.asp */
+      margin: 10px 0 30px 0;
+    }
+
+    /* Set the maximum width of your burger */
+    .burger {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* This center-aligns all of the ingredients */
+    .burger > div {
+      margin: 0 auto;
+    }
+      
+    .bun-top {
+      height: 85px;
+      width: 75%;
+      background-image: radial-gradient(circle, #edbc6d, #d4a55a, #bb8e47, #a27835, #8a6323);
+      border-radius: 55px 55px 0px 0px; /* change values for rounded corners */
+      border-bottom: solid 10px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+   .cheddar-cheese {
+      height: 8px;
+      width: 78%;
+      background: rgb(242,176,32);
+      border-radius: 20px 20px 5px 5px; /* change values for rounded corners */
+      border-bottom: solid 2px rgb(242,141,32, 0.5);
+      border-top: solid 2px rgb(242,141,32, 0.5);
+      box-shadow: inset 0px 5px 25px 3px #e5b05a;
+    }
+
+    .jack-cheese {
+      height: 8px;
+      width: 78%;
+      background: rgba(247, 246, 236, 0.5);
+      border-radius: 20px 20px 5px 5px; /* change values for rounded corners */
+      border-bottom: solid 2px rgb(223,205,165);
+      border-top: solid 2px rgb(223,205,165);
+      box-shadow: inset 0px 5px 25px 3px #e3dfd4;
+      
+    }
+    
+    .tomato {
+      height: 20px;
+      width: 50%;
+      background-color: #880000;
+      border-radius: 2px;
+      border-bottom: solid 4px rgba(128, 0, 0,1);
+      box-shadow: inset 0px 5px 50px 3px rgba(203,47,47,0.85);
+      background-image: linear-gradient(to top, #740012, #943938, #b26361, #ce8d8c, #e7b9b9);
+    }
+
+    .patty {
+      height: 25px;
+      width: 80%;
+      background: #ad370b;
+      border-bottom: solid 2px rgba(0,0,0,.1);
+      box-shadow: solid 0px 5px 50px 3px #5f4710;
+      border-radius:10px;
+      background-image: linear-gradient(
+        to right,
+        rgba(49,25,7,0.3), 
+        rgba(94,47,13,0.1)), 
+        url("burger.png")
+
+      }
+
+    .pickle {
+      height: 20px;
+      width: 60%;
+      background: #7eb498;
+      border-radius: 0px 0px 40px 40px; /* change values for rounded corners */
+      border-bottom: solid 10px #2d9961;
+      box-shadow: inset 0px 5px 25px 3px #7fd877;
+      border-top: dotted 8px rgb(241, 239, 206);
+      background-image: linear-gradient(to top, #48964c, #5fa266, #76af80, #8ebb98, #a7c6b0);
+    }
+      
+    .red-onion {
+      width: 65%;
+      background-color: #a039bf;
+      border-top: solid 5px rgba(255,255,255,.2);
+      border-bottom: dashed 6px rgb(76, 26, 127);
+    }
+      
+   
+    .yellow-onion {
+      width: 65%;
+      background-color: rgba(236, 226, 195, 0.79);
+      border-top: solid 5px #e0ceb1;
+      border-bottom:dashed 6px rgb(131, 135, 19);
+    }
+      
+    .bun-bottom {
+      height: 40px;
+      width: 75%;
+      background: #e5b05a;
+      border-radius: 0px 0px 35px 35px; /* change values for rounded corners */
+      border-top: solid 8px rgba(0,0,0,.1);
+      margin-top: -40px;
+      box-shadow: inset 0px 5px 25px 3px #e0b642;
+    }
+
+    .plate {
+      height: 25px;
+      width: 80%;
+      background: #656565;
+      border-radius: 20px 20px 200px 200px;
+      
+    }
